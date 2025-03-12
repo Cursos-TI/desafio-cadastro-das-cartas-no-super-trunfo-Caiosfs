@@ -4,7 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 
 int main() {
-    char codcard = 'A';
+    char codcard1 = 'A';
     char cdd_cod1[6];
     char cdd1[50];
     int pop1;
@@ -12,7 +12,7 @@ int main() {
     float area1;
     float pib1; 
     
-    char codcard = 'B';
+    char codcard2 = 'B';
     char cdd_cod2[6];
     char cdd2[50];
     int pop2;
@@ -20,7 +20,7 @@ int main() {
     float area2;
     float pib2;
     
-    printf("Cadastro de Cartas.");
+    printf("Cadastro de Cartas.\n");
 
     printf("Código da Cidade: ");
     scanf("%s", cdd_cod1);
@@ -40,7 +40,7 @@ int main() {
     printf("Pontos Turisticos: ");
     scanf("%d", &turis1);
 
-    printf("Cadastro de Cartas.");
+    printf("Cadastro de Cartas.\n");
 
     printf("Código da Cidade: ");
     scanf("%s", cdd_cod2);
